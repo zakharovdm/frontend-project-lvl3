@@ -1,4 +1,4 @@
-ame: eslint-check
+name: eslint-check
 
 on: push
 
