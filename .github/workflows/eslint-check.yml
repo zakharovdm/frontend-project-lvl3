@@ -1,4 +1,4 @@
-name: eslint-tests-check
+name: eslint-check
 
 on: push
 
@@ -21,11 +21,4 @@ jobs:
         run: make install
       - name: run linter
         run: make lint
-      - name: run test
-        run: make test
-      - name: coverage
-        uses: paambaati/codeclimate-action@v3.0.0
-        env:
-          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-        with:
-          coverageCommand: make coverage
+        
