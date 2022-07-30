@@ -4,4 +4,4 @@
 [![eslint-check](https://github.com/zakharovdm/frontend-project-lvl3/actions/workflows/eslint-check.yml/badge.svg)](https://github.com/zakharovdm/frontend-project-lvl3/actions/workflows/eslint-check.yml)
 
 ### RSS-Agregator
-## [Lets's try](https://rss-agregator-tau.vercel.app/)
+[Let's try](https://rss-agregator-tau.vercel.app/)
